@@ -1,1 +1,3 @@
-// place files you want to import through the `$lib` alias in this folder.
+export const slugify = (s: string): string => {
+    return s.trim().toLowerCase().replace(/\s+/g, '-');
+};
